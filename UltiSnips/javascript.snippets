@@ -253,7 +253,7 @@ isRequired,
 endsnippet
 
 snippet us_s "useState" w
-const [$1, set${1/\w+\s*/\u$0/g}] = useState(${3:''})${0:;}
+const [${1:state}, set${1/\w+\s*/\u$0/g}] = useState(${3:''})${0:;}
 endsnippet
 
 snippet us_e "useEffect" w
