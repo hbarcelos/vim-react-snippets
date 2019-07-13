@@ -29,7 +29,7 @@ For example, let's say we have `ListItem.js`
 In Insert mode
 
 ```javascript
-rfc<C-l>
+rfc<C-c>
 ```
 
 Will expand to
