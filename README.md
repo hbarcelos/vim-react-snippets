@@ -15,13 +15,10 @@ Using [vim-plug](https://github.com/junegunn/vim-plug):
 Plug 'epilande/vim-es2015-snippets'
 
 " React code snippets
-Plug 'epilande/vim-react-snippets'
+Plug 'hbarcelos/vim-react-snippets'
 
 " Ultisnips
 Plug 'SirVer/ultisnips'
-
-" Trigger configuration (Optional)
-" let g:UltiSnipsExpandTrigger="<C-l>"
 ```
 
 ## Usage

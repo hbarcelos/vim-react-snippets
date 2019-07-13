@@ -3,24 +3,18 @@ snippet rrcc "React Redux Class Component" b
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import styles from './${2:$1}.css';
 
 class ${1:`!v expand('%:t:r')`} extends Component {
 	static propTypes = {
-		children: PropTypes.node,
-		className: PropTypes.string,
-		dispatch: PropTypes.func.isRequired,
+		${2:children: PropTypes.node,
+		dispatch: PropTypes.func.isRequired,}
 	};
-
-	constructor(props) {
-		super(props);
-	}
 
 	render() {
 		return (
-			<div className={styles.base}>
-				$3
-			</div>
+			<${3:div}>
+				$0
+			</$3>
 		);
 	}
 }
@@ -35,21 +29,15 @@ endsnippet
 snippet rcc "React Class Component" b
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import styles from './${2:$1}.css';
 
 class ${1:`!v expand('%:t:r')`} extends Component {
 	static propTypes = {
-		${2:children: PropTypes.node,
-		className: PropTypes.string,}
+		${2:children: PropTypes.node,}
 	};
-
-	constructor(props) {
-		super(props);
-	}
 
 	render() {
 		return (
-			<${3:div} className={styles.base}>
+			<${3:div}>
 				$0
 			</$3>
 		);
@@ -62,20 +50,19 @@ endsnippet
 snippet rfc "React Functional Component" b
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './${2:$1}.css';
 
-function ${1:`!v expand('%:t:r')`}({ $3 }) {
+function ${1:`!v expand('%:t:r')`}({ $2 }) {
 	return (
-		<${5:div} className={styles.base}>
+		<${4:div}>
 			$0
-		</$5>
+		</$4>
 	);
 }
 
-$1.defaultProps = {$4};
+$1.defaultProps = {$3};
 
 $1.propTypes = {`!p
-props = t[3]
+props = t[2]
 
 if props:
   snip >> 1
