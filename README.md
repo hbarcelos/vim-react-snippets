@@ -22,7 +22,7 @@ Plug 'SirVer/ultisnips'
 ```
 
 ## Usage
-In a JavaScript or JSX file, type a trigger name while in Insert mode, then press Ultisnips trigger key. In my case I have it mapped to `<C-l>`.
+In a JavaScript or JSX file, type a trigger name while in Insert mode, then press Ultisnips trigger key. In my case I have it mapped to `<C-c>`.
 
 For example, let's say we have `ListItem.js`
 
