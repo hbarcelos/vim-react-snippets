@@ -37,11 +37,10 @@ Will expand to
 ```javascript
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './ListItem.css';
 
 function ListItem({ ...props }) {
   return (
-    <div className={styles.base}>
+    <div>
 
     </div>
   );
