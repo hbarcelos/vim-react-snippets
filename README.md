@@ -90,20 +90,20 @@ Check out [`UltiSnips/javascript.snippets`](UltiSnips/javascript.snippets) to se
 | Trigger    | Content |
 | -------:   | ------- |
 | `pt→`      | `propTypes {...}` |
-| `pt.a→`    | `PropTypes.array` |
-| `pt.b→`    | `PropTypes.bool` |
-| `pt.f→`    | `PropTypes.func` |
-| `pt.n→`    | `PropTypes.number` |
-| `pt.o→`    | `PropTypes.object` |
-| `pt.s→`    | `PropTypes.string` |
-| `pt.no→`   | `PropTypes.node` |
-| `pt.e→`    | `PropTypes.element` |
-| `pt.io→`   | `PropTypes.instanceOf` |
-| `pt.one→`  | `PropTypes.oneOf` |
-| `pt.onet→` | `PropTypes.oneOfType (Union)` |
-| `pt.ao→`   | `PropTypes.arrayOf (Instances)` |
-| `pt.oo→`   | `PropTypes.objectOf` |
-| `pt.sh→`   | `PropTypes.shape` |
+| `pt_a→`    | `PropTypes.array` |
+| `pt_b→`    | `PropTypes.bool` |
+| `pt_f→`    | `PropTypes.func` |
+| `pt_n→`    | `PropTypes.number` |
+| `pt_o→`    | `PropTypes.object` |
+| `pt_s→`    | `PropTypes.string` |
+| `pt_no→`   | `PropTypes.node` |
+| `pt_e→`    | `PropTypes.element` |
+| `pt_io→`   | `PropTypes.instanceOf` |
+| `pt_one→`  | `PropTypes.oneOf` |
+| `pt_onet→` | `PropTypes.oneOfType (Union)` |
+| `pt_ao→`   | `PropTypes.arrayOf (Instances)` |
+| `pt_oo→`   | `PropTypes.objectOf` |
+| `pt_sh→`   | `PropTypes.shape` |
 | `ir→`      | `isRequired` |
 
 #### Others
@@ -122,10 +122,10 @@ Check out [`UltiSnips/javascript.snippets`](UltiSnips/javascript.snippets) to se
 
 | Trigger  | Content |
 | -------: | ------- |
-| `us.s→`  | `const [state, setState] = useState('');` |
-| `us.e→`  | `useEffect(() => { });`                   |
-| `us.er→` | `useEffect(() => { return () => {}; });`  |
-| `us.c→`  | `const context = useContext(ctx);`        |
-| `us.r→`  | `const [store, dispatch] = useReducer(storeReducer, initialState);` |
-| `us.cb→` | `useCallback(() => {  }, []);` |
-| `us.m→`  | `const memo = useMemo(() => {  }, []);` |
+| `us_s→`  | `const [state, setState] = useState('');` |
+| `us_e→`  | `useEffect(() => { });`                   |
+| `us_er→` | `useEffect(() => { return () => {}; });`  |
+| `us_c→`  | `const context = useContext(ctx);`        |
+| `us_r→`  | `const [store, dispatch] = useReducer(storeReducer, initialState);` |
+| `us_cb→` | `useCallback(() => {  }, []);` |
+| `us_m→`  | `const memo = useMemo(() => {  }, []);` |
